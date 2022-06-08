@@ -1,0 +1,40 @@
+.bitcoin_about_part {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.bitcoin_about_part_1 {
+  width: 30rem;
+}
+.bitcoin_about_part_1 h1 {
+  color: #0071bd;
+  font-weight: 600;
+  font-size: x-large;
+  margin: 1rem 0;
+}
+.bitcoin_about_part_2 {
+  width: 30rem;
+}
+.bitcoin_about_part_2 h1 {
+  color: #0071bd;
+  font-weight: 600;
+  font-size: x-large;
+  margin: 1rem 0;
+}
+.bitcoin_links_all {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  padding: 1.5rem;
+  transition: all ease 0.5s;
+}
+.bitcoin_links_all:hover {
+  background-color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  .bitcoin_about_part {
+    display: block;
+  }
+}

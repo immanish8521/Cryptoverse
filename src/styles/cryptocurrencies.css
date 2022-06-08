@@ -1,0 +1,41 @@
+.cryptocurrencies_search {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.search_container {
+  width: 15rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  outline: none;
+  border-radius: 2px;
+}
+.card-container {
+  width: 21%;
+  margin: 2% 2% 2% 2%;
+  height: auto;
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  float: left;
+  transition: 0.5s ease all;
+}
+
+.card-container:hover {
+  box-shadow: 1px 1px 12px 1px rgba(202, 196, 196, 0.75);
+  -webkit-box-shadow: 1px 1px 12px 1px rgba(202, 196, 196, 0.75);
+  -moz-box-shadow: 1px 1px 12px 1px rgba(202, 196, 196, 0.75);
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.card-deatils {
+  padding: 1.5rem;
+  line-height: 2rem;
+}
+.hr {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #f0f2f5;
+}

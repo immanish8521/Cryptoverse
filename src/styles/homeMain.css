@@ -1,0 +1,9 @@
+.homestats__page {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .homestats__page {
+    width: 100vw;
+  }
+}

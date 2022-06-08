@@ -1,0 +1,14 @@
+.main__stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25rem 0 2rem;
+}
+.mainhome__heading h1 {
+  margin: 1.5rem;
+}
+.main__stats_1 h1 {
+  margin-bottom: 2rem;
+}
+.main__stats_2 h1 {
+  margin-bottom: 2rem;
+}

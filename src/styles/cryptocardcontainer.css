@@ -1,0 +1,66 @@
+.cryptocard_main {
+  width: 80vw;
+}
+.cryptocardcontainer_header {
+  text-align: center;
+  margin-top: 4rem;
+}
+.cryptocardcontainer_header h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #0071bd;
+  margin-bottom: 1.5rem;
+}
+
+.cryptocardcontainer_header p {
+  margin-bottom: 2rem;
+}
+.cryptocardcontainer_chart_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 4rem 1rem 4rem;
+}
+.cryptocardcontainer_chart_header h1 {
+  color: #0071bd;
+  font-weight: 600;
+}
+.cryptocard_container_stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.cryptocard_container_stats h1 {
+  color: #0071bd;
+  font-weight: 600;
+  font-size: x-large;
+}
+.cryptocard_container_stats_1 {
+  width: 30rem;
+}
+.cryptocard_container_stats_2 {
+  width: 30rem;
+}
+.crypto_card_container_stats_flex {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  padding: 1.5rem;
+  transition: all ease 0.5s;
+}
+.crypto_card_container_stats_flex:hover {
+  background-color: white;
+}
+td {
+  width: 20rem;
+  height: 3rem;
+  background-color: #0071bd;
+}
+@media only screen and (max-width: 1200px) {
+  .cryptocard_main {
+    width: 100%;
+  }
+  .cryptocard_container_stats {
+    display: block;
+  }
+}

@@ -1,0 +1,17 @@
+.footer__main {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #001529;
+  color: white;
+  padding: 2rem 0;
+}
+.footer_link {
+  margin-top: 0.5rem;
+}
+.footer__link {
+  margin: 0.5rem;
+  text-decoration: none;
+  color: #0071bd;
+}
